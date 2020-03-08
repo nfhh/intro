@@ -14,7 +14,7 @@ class StepsTable extends Migration
     public function up()
     {
         Schema::create('steps', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->unsignedBigInteger('product_id')->default(0);
             $table->text('en');
             $table->text('de');

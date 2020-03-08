@@ -1,0 +1,7 @@
+INSERT INTO `admins` VALUES (1, 'Stoa', '542950749@qq.com', '$2y$10$k6PYIxQKRwxYgITuxFEG7OwZ2Fs.Y6oITgReeKtovDPp1OFpiLQdC', NULL, NULL, NULL);
+INSERT INTO `products` VALUES (1, 'F20', 0, '2020-03-05 18:20:32', '2020-03-05 18:20:34');
+INSERT INTO `products` VALUES (2, 'F46', 1, '2020-03-05 18:20:46', '2020-03-05 18:20:48');
+INSERT INTO `steps` VALUES (1, 1, 'a', '德1', '法1', '意1', '西1', '匈1', '韩1', '日1', '中1', '台1', '俄1', 1, '2020-03-05 18:22:01', '2020-03-05 18:22:03');
+INSERT INTO `steps` VALUES (2, 1, 'b', '德2', '法2', '意2', '西2', '匈2', '韩2', '日2', '中2', '台2', 'の2', 2, '2020-03-05 18:23:05', '2020-03-05 18:23:07');
+INSERT INTO `steps` VALUES (3, 2, 'c', 'dsf', 'dfg', 'dfg', 'fgh', 'gfh', 'gfh', 'fgh', 'fgh', 'fgh', 'fgh', 1, '2020-03-05 18:23:31', '2020-03-05 18:23:33');
+INSERT INTO `steps` VALUES (4, 1, '<p><img src=\"/uploads/ueditor/php/upload/file/20200306/1583468528196437.png\" title=\"1583468528196437.png\" alt=\"未标题-1.png\"/>dgfhgfhdgfhgfhdgfhgfhdgfhgfh</p>', '<p><img src=\"/uploads/ueditor/php/upload/file/20200306/1583468580546756.png\" title=\"1583468580546756.png\" alt=\"151.png\"/>dgfhgfhdgfhgfhdgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh</p>', '<p>dgfhgfh<img src=\"/uploads/ueditor/php/upload/file/20200306/1583469451200905.png\" title=\"1583469451200905.png\" alt=\"151.png\"/></p>', 4, '2020-03-06 04:23:31', '2020-03-06 04:39:21');

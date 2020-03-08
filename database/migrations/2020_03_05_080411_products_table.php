@@ -14,7 +14,7 @@ class ProductsTable extends Migration
     public function up()
     {
         Schema::create('products', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('name')->default('');
             $table->unsignedTinyInteger('sort')->default(0);
             $table->timestamps();

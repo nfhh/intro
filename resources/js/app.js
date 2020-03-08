@@ -11,6 +11,10 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router'
 import router from './routes'
 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -23,9 +27,9 @@ import router from './routes'
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.use(VueRouter)
+Vue.use(VueAwesomeSwiper)
 
 Vue.component('sidebar', require('./components/common/Sidebar.vue').default);
-Vue.component('swiper', require('./components/common/Swiper.vue').default);
 Vue.component('app', require('./components/App.vue').default);
 
 
