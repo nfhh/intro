@@ -13,7 +13,7 @@ class LoginController extends Controller
 
     public function redirectTo()
     {
-        return '/admin';
+        return env('ADMIN_PRE');
     }
 
     public function __construct()
