@@ -27,12 +27,12 @@
                     <form action="{{ route('admin.login') }}" method="post">
                         @csrf
                         <div class="form-group">
-                            <label for="exampleInputEmail1">邮箱</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" name="email">
+                            <label for="email">邮箱</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">密码</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+                            <label for="password">密码</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
                         </div>
                         <button type="submit" class="btn btn-primary">确定</button>
                     </form>

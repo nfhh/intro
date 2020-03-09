@@ -9,14 +9,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @include('UEditor::head')
 </head>
@@ -64,8 +56,8 @@
     <div class="container-fluid pt-3">
         <div class="row">
             <div class="col-md-2">
-                <div class="list-group">
-                    <a href="{{ route('admin.product.index')  }}" class="list-group-item list-group-item-action active">
+                <div class="list-group" id="a-box">
+                    <a href="{{ route('admin.product.index')  }}" class="list-group-item list-group-item-action">
                         产品管理
                     </a>
                     <a href="{{ route('admin.step.index') }}" class="list-group-item list-group-item-action">步骤管理</a>
@@ -77,6 +69,17 @@
         </div>
     </div>
 </div>
+<script src="{{ asset('js/app.js') }}"></script>
+<script>
+    $('#a-box a').each(function () {
+        if (location.href == $(this).attr('href')) {
+            $(this).addClass('active');
+        }
+        if (location.search == $(this).attr('href')) {
+            $(this).addClass('active');
+        }
+    });
+</script>
 @yield('js')
 </body>
 </html>
