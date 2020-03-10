@@ -26,17 +26,17 @@
             <tr>
                 <td>{{ $step->product->name }}</td>
                 <td><a href="{{ route('admin.step.show',$step) }}?lan=en" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
-                <td><a href="" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=de" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=fr" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=it" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=es" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=hu" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=ko" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=ja" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=cn" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=tw" target="_blank">预览</a></td>
+                <td><a href="{{ route('admin.step.show',$step) }}?lan=ru" target="_blank">预览</a></td>
+                <td>{{ $step->sort }}</td>
                 <td>
                     <div class="btn-group" role="group" aria-label="Basic example">
                         <a class="btn btn-secondary"
